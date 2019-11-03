@@ -1,6 +1,6 @@
 {
   "name": "chimera-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a cli tool for link directories",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,6 @@
   },
   "homepage": "https://github.com/lusess123/chimera-cli#readme",
   "dependencies": {
-    "@terminus/console-erd": "^0.1.294",
-    "@terminus/console-webpack": "^0.1.293",
     "commander": "^4.0.0",
     "shelljs": "^0.8.3"
   }
