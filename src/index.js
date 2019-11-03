@@ -31,6 +31,7 @@ if(moduleName) {
     console.log(` 找到模块 ${modulePath} 下面的文件夹： `);
     
     files.forEach(f=>{
+      if(f === 'node_modules') return 
       const dPath = path.join(modulePath,f)
       fs.stat( dPath, (sErr , stat) => {
         if(sErr) throw sErr;
