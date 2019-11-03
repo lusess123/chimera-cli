@@ -1,0 +1,28 @@
+{
+  "name": "chimera-cli",
+  "version": "1.0.0",
+  "description": "a cli tool for link directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "chimera-cli":"./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusess123/chimera-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lusess123/chimera-cli/issues"
+  },
+  "homepage": "https://github.com/lusess123/chimera-cli#readme",
+  "dependencies": {
+    "@terminus/console-erd": "^0.1.294",
+    "@terminus/console-webpack": "^0.1.293",
+    "commander": "^4.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
